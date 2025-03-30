@@ -47,7 +47,7 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <28 31>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
             hold-trigger-on-release;
             require-prior-idle-ms = <150>;
