@@ -96,11 +96,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans   &kp F1      &kp F2           &kp F3       &kp F4             &kp F5                      &kp F6     &kp F7          &kp F8    &kp F9     &kp F10  &kp F11
-&trans   &kp INS     &kp RIGHT_BRACE  &kp K_CMENU  &kp RIGHT_BRACKET  &trans                      &kp PG_UP  &kp LEFT_BRACE  &kp UP    &kp COLON  &kp N0   &kp F12
-&kp DEL  &kp F17     &kp MINUS        &kp F18      &kp F19            &kp CLCK                    &kp PG_DN  &kp LEFT        &kp DOWN  &kp RIGHT  &kp F20  &kp BSPC
-&trans   &kp K_UNDO  &kp K_CUT        &kp K_COPY   &kp K_PASTE        &trans    &trans    &trans  &trans     &kp F16         &kp F22   &kp F21    &trans   &trans
-                     &trans           &trans       &trans             &trans    &trans    &trans  &trans     &trans          &trans    &trans
+&trans   &kp F1      &kp F2           &kp F3       &kp F4             &kp F5                      &kp F6     &kp F7            &kp F8    &kp F9         &kp F10  &kp F11
+&trans   &kp INS     &kp RIGHT_BRACE  &kp K_CMENU  &kp RIGHT_BRACKET  &trans                      &kp PG_UP  &kp LEFT_BRACKET  &kp UP    &kp SEMICOLON  &kp N0   &kp F12
+&kp DEL  &kp F17     &kp MINUS        &kp F18      &kp F19            &kp CLCK                    &kp PG_DN  &kp LEFT          &kp DOWN  &kp RIGHT      &kp F20  &kp BSPC
+&trans   &kp K_UNDO  &kp K_CUT        &kp K_COPY   &kp K_PASTE        &trans    &trans    &trans  &trans     &kp F16           &kp F22   &kp F21        &trans   &trans
+                     &trans           &trans       &trans             &trans    &trans    &trans  &trans     &trans            &trans    &trans
             >;
 
             sensor-bindings =
