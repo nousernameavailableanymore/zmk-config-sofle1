@@ -110,11 +110,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans          &trans        &trans         &trans                    &trans  &trans            &trans          &trans   &trans  &trans
-&trans  &trans  &trans          &msc SCRL_UP  &trans         &trans                    &trans  &kp LEFT_BRACKET  &mmv MOVE_UP    &trans   &trans  &trans
-&trans  &trans  &msc SCRL_LEFT  &kp PIPE      &kp BACKSLASH  &trans                    &trans  &kp HOME          &mmv MOVE_DOWN  &kp END  &trans  &trans
-&trans  &trans  &trans          &trans        &trans         &trans  &trans    &trans  &trans  &kp HOME          &trans          &kp END  &trans  &trans
-                &trans          &trans        &trans         &trans  &trans    &trans  &trans  &trans            &trans          &trans
+&trans  &trans  &trans            &trans        &trans            &trans                       &trans  &trans            &trans          &trans   &trans  &trans
+&trans  &trans  &trans            &msc SCRL_UP  &trans            &trans                       &trans  &kp LEFT_BRACKET  &mmv MOVE_UP    &trans   &trans  &trans
+&trans  &trans  &kp GREATER_THAN  &kp RA(D)     &kp RA(F)         &kp RA(G)                    &trans  &kp HOME          &mmv MOVE_DOWN  &kp END  &trans  &trans
+&trans  &trans  &kp PIPE          &kp TILDE2    &kp SINGLE_QUOTE  &trans     &trans    &trans  &trans  &kp HOME          &trans          &kp END  &trans  &trans
+                &trans            &trans        &trans            &trans     &trans    &trans  &trans  &trans            &trans          &trans
             >;
 
             label = "two";
