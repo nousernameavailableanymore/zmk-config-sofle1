@@ -77,7 +77,7 @@
 &kp TAB        &kp Q   &kp W         &kp E         &kp R               &kp T                                 &kp Y        &kp U                &kp I      &kp O     &kp SEMI  &kp LBKT
 &kp BACKSPACE  &kp A   &kp S         &kp D         &mt LEFT_CONTROL F  &kp G                                 &kp H        &mt RIGHT_CONTROL J  &kp K      &kp L     &kp P     &kp SQT
 &kp LSHFT      &kp Z   &kp X         &kp C         &kp V               &kp B        &kp C_MUTE    &none      &kp N        &kp M                &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
-                       &kp LEFT_GUI  &kp LEFT_ALT  &kp RIGHT_ALT       &lt 1 ENTER  &lt 2 F14     &lt 2 F15  &lt 1 ENTER  &kp SPACE            &kp RALT   &kp RGUI
+                       &kp LEFT_GUI  &kp LEFT_ALT  &mt RIGHT_ALT F14   &lt 1 ENTER  &lt 2 F15     &lt 2 F15  &lt 1 ENTER  &kp SPACE            &kp RALT   &kp RGUI
             >;
 
             sensor-bindings =
@@ -110,11 +110,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                    &trans  &trans            &trans          &trans           &trans  &trans
-&trans  &trans  &trans          &msc SCRL_UP    &trans           &trans                    &trans  &kp LEFT_BRACKET  &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans                    &trans  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans  &kp HOME          &trans          &kp END          &trans  &trans
-                &trans          &trans          &trans           &trans  &trans    &trans  &trans  &trans            &trans          &trans
+&trans  &trans  &trans          &trans        &trans         &trans                    &trans  &trans            &trans          &trans   &trans  &trans
+&trans  &trans  &trans          &msc SCRL_UP  &trans         &trans                    &trans  &kp LEFT_BRACKET  &mmv MOVE_UP    &trans   &trans  &trans
+&trans  &trans  &msc SCRL_LEFT  &kp PIPE      &kp BACKSLASH  &trans                    &trans  &kp HOME          &mmv MOVE_DOWN  &kp END  &trans  &trans
+&trans  &trans  &trans          &trans        &trans         &trans  &trans    &trans  &trans  &kp HOME          &trans          &kp END  &trans  &trans
+                &trans          &trans        &trans         &trans  &trans    &trans  &trans  &trans            &trans          &trans
             >;
 
             label = "two";
